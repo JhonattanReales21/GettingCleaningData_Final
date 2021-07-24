@@ -1,0 +1,93 @@
+The variables created for the tidy data set are the mean and standard deviations meausures
+for the next variables (measurements):
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+Take in consideration that some of the variables above have 3 measures, related with the 3 axis.
+
+After some transformations the new variables of the tidy data set are:
+
+"1" "Subjects"
+"2" "Activity"
+"3" "TimeDomain_Body_Acceleration_.mean.._Axis_X"
+"4" "TimeDomain_Body_Acceleration_.mean.._Axis_Y"
+"5" "TimeDomain_Body_Acceleration_.mean.._Axis_Z"
+"6" "TimeDomain_Body_Acceleration_.std.._Axis_X"
+"7" "TimeDomain_Body_Acceleration_.std.._Axis_Y"
+"8" "TimeDomain_Body_Acceleration_.std.._Axis_Z"
+"9" "TimeDomain_Gravity_Acceleration_.mean.._Axis_X"
+"10" "TimeDomain_Gravity_Acceleration_.mean.._Axis_Y"
+"11" "TimeDomain_Gravity_Acceleration_.mean.._Axis_Z"
+"12" "TimeDomain_Gravity_Acceleration_.std.._Axis_X"
+"13" "TimeDomain_Gravity_Acceleration_.std.._Axis_Y"
+"14" "TimeDomain_Gravity_Acceleration_.std.._Axis_Z"
+"15" "TimeDomain_Body_Acceleration_Jerk.mean.._Axis_X"
+"16" "TimeDomain_Body_Acceleration_Jerk.mean.._Axis_Y"
+"17" "TimeDomain_Body_Acceleration_Jerk.mean.._Axis_Z"
+"18" "TimeDomain_Body_Acceleration_Jerk.std.._Axis_X"
+"19" "TimeDomain_Body_Acceleration_Jerk.std.._Axis_Y"
+"20" "TimeDomain_Body_Acceleration_Jerk.std.._Axis_Z"
+"21" "TimeDomain_Body_AngVelocity_.mean.._Axis_X"
+"22" "TimeDomain_Body_AngVelocity_.mean.._Axis_Y"
+"23" "TimeDomain_Body_AngVelocity_.mean.._Axis_Z"
+"24" "TimeDomain_Body_AngVelocity_.std.._Axis_X"
+"25" "TimeDomain_Body_AngVelocity_.std.._Axis_Y"
+"26" "TimeDomain_Body_AngVelocity_.std.._Axis_Z"
+"27" "TimeDomain_Body_AngVelocity_Jerk.mean.._Axis_X"
+"28" "TimeDomain_Body_AngVelocity_Jerk.mean.._Axis_Y"
+"29" "TimeDomain_Body_AngVelocity_Jerk.mean.._Axis_Z"
+"30" "TimeDomain_Body_AngVelocity_Jerk.std.._Axis_X"
+"31" "TimeDomain_Body_AngVelocity_Jerk.std.._Axis_Y"
+"32" "TimeDomain_Body_AngVelocity_Jerk.std.._Axis_Z"
+"33" "TimeDomain_Body_Acceleration_Mag.mean.."
+"34" "TimeDomain_Body_Acceleration_Mag.std.."
+"35" "TimeDomain_Gravity_Acceleration_Mag.mean.."
+"36" "TimeDomain_Gravity_Acceleration_Mag.std.."
+"37" "TimeDomain_Body_Acceleration_JerkMag.mean.."
+"38" "TimeDomain_Body_Acceleration_JerkMag.std.."
+"39" "TimeDomain_Body_AngVelocity_Mag.mean.."
+"40" "TimeDomain_Body_AngVelocity_Mag.std.."
+"41" "TimeDomain_Body_AngVelocity_JerkMag.mean.."
+"42" "TimeDomain_Body_AngVelocity_JerkMag.std.."
+"43" "FrequencyDomain_Body_Acceleration_.mean.._Axis_X"
+"44" "FrequencyDomain_Body_Acceleration_.mean.._Axis_Y"
+"45" "FrequencyDomain_Body_Acceleration_.mean.._Axis_Z"
+"46" "FrequencyDomain_Body_Acceleration_.std.._Axis_X"
+"47" "FrequencyDomain_Body_Acceleration_.std.._Axis_Y"
+"48" "FrequencyDomain_Body_Acceleration_.std.._Axis_Z"
+"49" "FrequencyDomain_Body_Acceleration_Jerk.mean.._Axis_X"
+"50" "FrequencyDomain_Body_Acceleration_Jerk.mean.._Axis_Y"
+"51" "FrequencyDomain_Body_Acceleration_Jerk.mean.._Axis_Z"
+"52" "FrequencyDomain_Body_Acceleration_Jerk.std.._Axis_X"
+"53" "FrequencyDomain_Body_Acceleration_Jerk.std.._Axis_Y"
+"54" "FrequencyDomain_Body_Acceleration_Jerk.std.._Axis_Z"
+"55" "FrequencyDomain_Body_AngVelocity_.mean.._Axis_X"
+"56" "FrequencyDomain_Body_AngVelocity_.mean.._Axis_Y"
+"57" "FrequencyDomain_Body_AngVelocity_.mean.._Axis_Z"
+"58" "FrequencyDomain_Body_AngVelocity_.std.._Axis_X"
+"59" "FrequencyDomain_Body_AngVelocity_.std.._Axis_Y"
+"60" "FrequencyDomain_Body_AngVelocity_.std.._Axis_Z"
+"61" "FrequencyDomain_Body_Acceleration_Mag.mean.."
+"62" "FrequencyDomain_Body_Acceleration_Mag.std.."
+"63" "FrequencyDomain_Body_Acceleration_JerkMag.mean.."
+"64" "FrequencyDomain_Body_Acceleration_JerkMag.std.."
+"65" "FrequencyDomain_Body_AngVelocity_Mag.mean.."
+"66" "FrequencyDomain_Body_AngVelocity_Mag.std.."
+"67" "FrequencyDomain_Body_AngVelocity_JerkMag.mean.."
+"68" "FrequencyDomain_Body_AngVelocity_JerkMag.std.."
